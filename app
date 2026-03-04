@@ -10,4 +10,4 @@ def hello():
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
-    app.run(debug=True,host='1.2.3.4',port=port)
+    app.run(debug=True,host='100.90',port=port)
